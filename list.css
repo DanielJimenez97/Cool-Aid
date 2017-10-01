@@ -1,0 +1,47 @@
+font {
+	padding: 30px;
+	font-family: "arial";
+	text-align: "center";
+}
+
+#header {
+	color: white;
+	text-align: center;
+}
+#container {
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 920 px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: 130b0c;
+    -moz-box-shadow: 7px 8px 17px #292629;
+    -webkit-box-shadow: 7px 8px 17px #292629;
+    box-shadow: 7px 8px 17px #292629;
+
+	
+}
+#map {
+	color: white;
+	position: absolute;
+	left: 525px;
+}
+#list {
+	color: white;
+	float: left;
+	overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 50 px;
+	height: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: 130b0c;
+    -moz-box-shadow: 7px 8px 17px #292629;
+    -webkit-box-shadow: 7px 8px 17px #292629;
+    box-shadow: 7px 8px 17px #292629;
+	overflow: auto;
+}
