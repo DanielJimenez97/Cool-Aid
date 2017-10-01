@@ -1,0 +1,54 @@
+from django.http import HttpResponse
+
+def vol_list(request):
+	output = '''
+		<html>
+	<head>
+		<link rel="stylesheet" href="list.css" style="text/css">
+		<title>Cool-Aid</title>
+	</head>
+	<body style="background-color: gray;">
+	<div id="container">
+		<img style="float: left" src="Cool-Aid.png" height=150px width=150px >
+		<div id="header">
+			<h1>Cool-Aid</h1>
+		</div>
+	</div>
+	
+	<div id="list">
+		<p>List of Volunteer options</p>
+		<ul>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+			<li>EXAMPLE</li>
+		</ul>
+			
+	</div>
+	
+	<div id="map">
+		<h2>Google Map</h2>
+		<img src="googleMap.png" height=400px width=800px >
+	</div>
+	</body>
+</html>'''
+	return HttpResponse(output)
